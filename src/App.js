@@ -19,7 +19,6 @@ import Boards from "../src/Pages/Home/Boards";
 import Account from "../src/Pages/Profile/Account";
 import Register from "../src/Pages/Register/Register";
 import Home from "../src/Pages/Home/Home";
-import Card from "../src/Components/ShareComponent/Navbar/Card";
 import Dnd from "./Pages/Team Detail/Dnd";
 
 function App() {
