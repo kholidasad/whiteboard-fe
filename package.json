@@ -34,7 +34,6 @@
     "redux-persist-transform-filter": "^0.0.20",
     "redux-thunk": "^2.4.1",
     "select": "^1.1.2",
-    "serve": "^13.0.2",
     "swiper": "^8.0.2",
     "use-react-router-breadcrumbs": "^3.1.0",
     "uuid": "7",
@@ -42,8 +41,7 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "serve -s build",
-    "dev": "react-scripts --max_old_space_size=8192 start",
+    "start": "react-scripts --max_old_space_size=8192 start",
     "build": "react-scripts --max_old_space_size=8192 build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
