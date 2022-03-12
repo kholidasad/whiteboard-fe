@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ckeditor/ckeditor5-build-classic": "ckeditor/ckeditor5-build-classic",
+    "@ckeditor/ckeditor5-build-classic": "github:ckeditor/ckeditor5-build-classic",
     "@ckeditor/ckeditor5-react": "^4.0.0",
     "@mantine/core": "^3.6.7",
     "@mantine/dates": "^3.6.7",
@@ -63,5 +63,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kholidasad/whiteboard-fe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kholidasad/whiteboard-fe/issues"
+  },
+  "homepage": "https://github.com/kholidasad/whiteboard-fe#readme"
 }
